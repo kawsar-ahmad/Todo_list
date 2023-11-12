@@ -1,0 +1,95 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(36, 21, 21, 0.605);
+}
+
+#app {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 1000px;
+  height: 500px;
+  max-width: 80%;
+  max-height: 80%;
+  margin: auto;
+}
+
+h1 {
+  color: #333;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 70%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 20px 26px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  max-height: 350px; /* Set a maximum height for the list before scrolling */
+  overflow-y: auto;
+}
+
+li {
+  margin: 10px 0;
+  padding: 12px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #e0e0e0;
+}
+
+li span {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+li button {
+  background-color: #ff3333;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li button:hover {
+  background-color: #e62e2e;
+}
